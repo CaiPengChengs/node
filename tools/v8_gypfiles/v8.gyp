@@ -1617,8 +1617,8 @@
         'v8_maybe_icu',
       ],
       'sources': [
-        '<(V8_ROOT)/src/snapshot/embedded-file-writer.cc',
-        '<(V8_ROOT)/src/snapshot/embedded-file-writer.h',
+        '<(V8_ROOT)/src/snapshot/embedded/embedded-file-writer.cc',
+        '<(V8_ROOT)/src/snapshot/embedded/embedded-file-writer.h',
         '<(V8_ROOT)/src/snapshot/embedded/platform-embedded-file-writer-base.cc',
         '<(V8_ROOT)/src/snapshot/embedded/platform-embedded-file-writer-base.h',
         '<(V8_ROOT)/src/snapshot/embedded/platform-embedded-file-writer-generic.cc',
