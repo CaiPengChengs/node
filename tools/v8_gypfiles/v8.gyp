@@ -494,7 +494,7 @@
                 ],
               },
             }, {
-               'outputs': ['<(V8_ROOT)/src/snapshot/embedded-empty.cc']
+               'outputs': ['<(V8_ROOT)/src/snapshot/embedded/embedded-empty.cc']
              }],
             ['v8_random_seed', {
               'variables': {
