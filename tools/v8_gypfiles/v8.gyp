@@ -558,7 +558,7 @@
       ],
       'sources': [
         './extras-libraries.cc',
-        '<(V8_ROOT)/src/snapshot/embedded-empty.cc',
+        '<(V8_ROOT)/src/snapshot/embedded/embedded-empty.cc',
         '<(V8_ROOT)/src/snapshot/snapshot-empty.cc',
       ],
       'conditions': [
@@ -626,7 +626,7 @@
       ],
       'direct_dependent_settings': {
         'sources': [
-          '<(V8_ROOT)/src/globals.h',
+          '<(V8_ROOT)/src/common/globals.h',
         ],
       },
     },  # v8_shared_internal_headers
